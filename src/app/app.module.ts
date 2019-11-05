@@ -7,13 +7,15 @@ import {ReactiveFormsModule} from '@angular/forms';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import { CreateBookComponent } from './create-book/create-book.component';
 import { EditBookComponent } from './edit-book/edit-book.component';
+import { DetailBookComponent } from './detail-book/detail-book.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookComponent,
     CreateBookComponent,
-    EditBookComponent
+    EditBookComponent,
+    DetailBookComponent
   ],
   imports: [
     BrowserModule,
